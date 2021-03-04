@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 25px;
+  color: #ffd700;
+}
+
+#app {
+  background-image: url('../Img/rick-and-morty-wallpaper-portal-wallpaper-004.jpg');
+}
+
+/* Header */
+
+header {
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+  /* background-color: #b4eeb4; */
+}
+
+#title,
+#And {
+  font-family: 'Creepster', cursive;
+  color: #00b0cf;
+  font-size: 65px;
+}
+
+#And {
+  font-size: 30px;
+}
+
+#score-container {
+  font-size: 18px;
+}
+
+/* Main */
+main {
+  border: 1px solid black;
+}

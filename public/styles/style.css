@@ -8,12 +8,12 @@
 
 #app {
   background-image: url('../Img/rick-and-morty-wallpaper-portal-wallpaper-004.jpg');
+  height: 100vh;
 }
 
 /* Header */
 
 header {
-  border: 1px solid black;
   text-align: center;
   padding: 20px;
   /* background-color: #b4eeb4; */
@@ -26,6 +26,12 @@ header {
   font-size: 65px;
 }
 
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #And {
   font-size: 30px;
 }
@@ -36,5 +42,29 @@ header {
 
 /* Main */
 main {
-  border: 1px solid black;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  /* background-color: green; */
+  background-image: url('../Img/3958027.png');
+  text-align: center;
+  margin: 10px 20px;
+  padding: 10px 0;
+  /* width: 13%; */
+  width: 250px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.cards img {
+  border-radius: 10%;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }

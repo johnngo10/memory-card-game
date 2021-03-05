@@ -6,9 +6,9 @@ const App = () => {
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
 
-  const handleScore = score => {
-    setScore(score);
-    if (score > bestScore) {
+  const handleScore = scoreNum => {
+    setScore(scoreNum);
+    if (score > bestScore && scoreNum === 0) {
       setBestScore(score);
     }
   };

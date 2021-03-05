@@ -10,7 +10,8 @@ I built this memory game to practice and showcase my React/Hooks abilities.
 
 ## Built With
 
-\* React/Hooks \* HTML/CSS
+- React/Hooks
+- HTML/CSS
 
 ## License
 

@@ -2,7 +2,7 @@
 
 A memory card game where users earn points by clicking on a card no more than once. Based on the popular T.V show Rick and Morty.
 
-[Live Demo](https://xuanngo.com/memory-card-game/)
+- [Live Demo](https://xuanngo.com/memory-card-game/)
 
 ## Built With
 

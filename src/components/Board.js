@@ -53,18 +53,6 @@ const Board = props => {
     },
   ]);
 
-  // useEffect(() => {
-  //   const handleClick = () => {
-  //     console.log('hello');
-  //   };
-  //   const cards = document.getElementById('cards');
-  //   cards.addEventListener('click', handleClick);
-
-  //   return () => {
-  //     cards.removeEventListener('click', handleClick);
-  //   };
-  // }, []);
-
   const handleCardClick = e => {
     const target = e.currentTarget.lastElementChild.textContent;
     const shuffleArr = shuffle(cards);

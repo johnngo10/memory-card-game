@@ -4,10 +4,6 @@ A memory card game where users earn points by clicking on a card no more than on
 
 [Live Demo](https://xuanngo.com/memory-card-game/)
 
-## Motivation
-
-I built this memory game to practice and showcase my React/Hooks abilities.
-
 ## Built With
 
 - React/Hooks

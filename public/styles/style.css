@@ -6,9 +6,12 @@
   color: #ffd700;
 }
 
-#app {
-  background-image: url('../Img/rick-and-morty-wallpaper-portal-wallpaper-004.jpg');
+#root {
+  /* background-image: url('../Img/rick-and-morty-wallpaper-portal-wallpaper-004.jpg'); */
+  background-image: url('../Img/ay86q49ckx251.png');
+  background-repeat: repeat-x;
   height: 100vh;
+  overflow: auto;
 }
 
 /* Header */
@@ -16,11 +19,11 @@
 header {
   text-align: center;
   padding: 20px;
-  /* background-color: #b4eeb4; */
 }
 
 #title,
-#And {
+#And,
+.title-text {
   font-family: 'Creepster', cursive;
   color: #00b0cf;
   font-size: 65px;
@@ -28,8 +31,16 @@ header {
 
 #title {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.title-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
 }
 
 #And {
@@ -50,15 +61,17 @@ main {
 }
 
 .cards {
-  /* background-color: green; */
   background-image: url('../Img/3958027.png');
   text-align: center;
   margin: 10px 20px;
   padding: 10px 0;
-  /* width: 13%; */
   width: 250px;
   border-radius: 10%;
   cursor: pointer;
+}
+
+.cards:hover {
+  box-shadow: 0 0 10px lightgreen;
 }
 
 .cards img {
@@ -67,4 +80,8 @@ main {
   height: 300px;
   object-fit: cover;
   object-position: 50% 50%;
+}
+
+.cards p {
+  text-shadow: 0 0 4px #333333;
 }
